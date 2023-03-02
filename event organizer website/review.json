@@ -1,0 +1,32 @@
+[
+    {
+        "image" : "images/pic-1.png",
+        "name" : "Rhohan patel",
+        "tag" : "happy clients",
+        "details" : " Your amazing event planning tools make life easier, and all documents and files can be loaded onto the client's profile for them to download so no more trading thousands of emails back and forth with different attachments and changes. I can just log on and go to their event to see if there are any changes. Plus our clients absolutely love the idea of planning their whole event online"
+    },
+
+
+    {
+        "image" : "images/pic-2.png",
+        "name" : "rubi mehta",
+        "tag" : "happy clients",
+        "details" : "Planning Pod allows me to work on several projects at one time with the data for all kept in one location rather than across multiple programs and files"
+    },
+
+    {
+        "image" : "images/pic-3.png",
+        "name" : "kriyan shah",
+        "tag" : "happy clients",
+        "details" : "Five stars ... Planning Pod is at the core of our venue business and helps schedule most activities. Both sales and event management staff use the software extensively. We particularly appreciate the responsiveness by support. It's now hard to imagine running our business without it. "
+    },
+
+    {
+        "image" : "images/pic-4.png",
+        "name" : "ruhi korat",
+        "tag" : "happy clients",
+        "details" : "I really like the timelines tool and the ability to have the customer sign proposals online. It's also very easy to assign vendors to an event and track their assignments. "
+    }
+
+
+]

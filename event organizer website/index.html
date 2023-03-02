@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Event Organizer Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- jquery link -->
+    <script src="jquery-3.6.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo"><span>b</span>lessing Event</a>
+
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#service">service</a>
+            <a href="#about">about</a>
+            <a href="#gallery">gallery</a>
+            <a href="#price">price</a>
+            <a href="#review">review</a>
+            <a href="#contact">sugggestion</a>
+        </nav>
+
+        <div id="menu-bars" class="fas fa-bars"></div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h5>it's time to enhance!! your vision</h5>
+
+            <h3>its time to celebrate!<span>your best event</span></h3>
+            <a href="#" class="btn">view more</a>
+        </div>
+
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/slide-1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/slide-2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/slide-3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/slide-4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/slide-5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/slide-6.jpg" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- service section starts  -->
+
+    <section class="service" id="service">
+
+        <h1 class="heading"> our <span>services</span> </h1>
+
+        <div class="box-container" id="showData">
+
+
+            <!-- load data form the services.json -->
+           
+        </div>
+
+    </section>
+
+    <!-- service section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"><span>about</span> us </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about-img.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>we will give a very special celebration for you</h3>
+                <p>Our company has been operating for the past five years in india,We have served over 2000+ customers so far,Our company provides adequate convenience and satisfaction to the customers.
+
+                </p>
+                <p>There are occasions of great happiness in pepople's live , oyr company provides complete support to make their event full of fun and excitement</p>
+                <a href="#" class="btn">view more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">our <span>gallery</span></h1>
+
+        <div class="box-container photosdata">
+
+            <!-- load the data form gallery_data.xml file -->
+
+
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- price section starts  -->
+
+
+    <section class="price" id="price">
+
+        <h1 class="heading"> our <span>price</span> </h1>
+
+        <div class="box-container pricedata">
+
+            <!-- load data from price_data.xml file -->
+
+        </div>
+
+
+    </section>
+
+    <!-- price section ends -->
+
+    <!-- review section starts  -->
+
+
+
+    <section class="reivew" id="review">
+
+        <h1 class="heading">client's <span>review</span></h1>
+
+        <div class="review-slider swiper-container">
+
+            <div class="swiper-wrapper" id="factdata">
+
+                <!-- load data form review.json -->
+
+        
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>your </span>sugggestion</h1>
+
+        <form action="" id="formc">
+            <div class="inputBox">
+                <div class="stcolumn">
+                    <input type="text" name="name" placeholder="name">
+
+                </div>
+                <div class="stcolumn">
+                    <input type="email" name="email" placeholder="email">
+                </div>
+
+            </div>
+            <div class="inputBox">
+                <div class="stcolumn">
+                <input type="number" name="number" placeholder="number">
+            </div>
+            <div class="stcolumn">
+                <input type="text" name="subtext" placeholder="subject">
+
+            </div>
+            </div>
+            <textarea name="messtext" placeholder="your message" id="" cols="30" rows="10"></textarea>
+            <input onclick="subf()" type="submit" value="send message" class="btn">
+        </form>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>branches</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> surat </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> mumbai </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> bangaluru </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> delhi </a>
+            
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> service </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> gallery </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> price </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> reivew </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +91 98799 45551 </a>
+                <a href="#"> <i class="fas fa-phone"></i> 0261 223 465 76 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> event1@gmail.com </a>
+                <a href="#"> <i class="fas fa-envelope"></i> riya21@gmail.com </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> surat, gujarat - 395013 </a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            </div>
+
+        </div>
+
+        <div class="credit"> 
+            
+            <p>&copy;</span></span>2023 blessingevent.com All rights reserved.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+    <!-- form validation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
+        integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+
+        // gallery data 
+        $(document).ready(
+            function () {
+                $.ajax(
+                    {
+                        "type": "GET",
+                        "dataType": "xml",
+                        "url": "gallery_data.xml",
+                        success: getPhoto
+                    }
+                );
+            }
+        )
+
+        function getPhoto(xml) {
+            $(xml).find("photo").each(
+                function () {
+
+                    let imgurl = $(this).attr('imageurl');
+                    $('.photosdata').append(
+                        `
+                     
+
+                        <div class="box">
+            <img src=${imgurl} alt="">
+            <h3 class="title">photos and events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+                        `
+                    )
+
+                }
+            )
+        }
+
+
+
+        // services data
+        var myArray = []
+
+        $.ajax({
+            method: 'GET',
+            url: "services.json",
+            success: function (response) {
+                myArray = response.servicesdata
+                buliddata(myArray)
+
+            }
+        })
+
+        function buliddata(servicesdata) {
+            var data = document.getElementById('showData')
+            for (var i = 0; i < servicesdata.length; i++) {
+                var p1 = ` <div class="box">
+            <i class="${servicesdata[i].class}"></i>
+            <h3>${servicesdata[i].hading}</h3>
+            <p>${servicesdata[i].details}</p>
+        </div>`
+
+                data.innerHTML += p1
+            }
+        }
+        // contact us vaidation
+        function subf() {
+
+            jQuery("#formc").validate({
+                rules: {
+                    name: {
+                        required: true,
+                        minlength: 3,
+                    },
+                    email: {
+                        email: "Please enter valid email",
+                        required: true,
+                    },
+
+                    number: {
+                        required: true,
+                        minlength: 10,
+                        maxlength: 10
+                    },
+
+                    subtext: {
+                        required: true,
+                        minlength: 8,
+                    },
+
+                    messtext: {
+                        required: true,
+                        minlength: 10,
+                    },
+                },
+
+                messages: {
+                    required: "Required input",
+                    minlength: "Please, at least {0} characters are necessary",
+                },
+
+                submitHandler: function (form) {
+                    alert("Your sugggestion send successfully")
+
+                }
+            });
+        }
+
+        //   load data review
+
+        fetch("review.json")
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (products) {
+                let placeholder = document.querySelector("#factdata");
+                let out = "";
+                for (let product of products) {
+                    out += `
+      <div class="swiper-slide box">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src='${product.image}' alt="">
+                        <div class="user-info">
+                            <h3>${product.name}</h3>
+                            <span>${product.tag}</span>
+                        </div>
+                    </div>
+                    <p>${product.details}</p>
+                </div>
+      `;
+                }
+
+                placeholder.innerHTML = out;
+            });
+
+
+        // load price data
+        $(document).ready(
+            function () {
+                $.ajax(
+                    {
+                        "type": "GET",
+                        "dataType": "xml",
+                        "url": "price_data.xml",
+                        success: getPrice
+                    }
+                );
+            }
+        )
+
+        function getPrice(xml) {
+            $(xml).find("cart").each(
+                function () {
+
+
+                    let tital = $(this).find('tital').text();
+                    let price = $(this).find('price').text();
+                    let facility1 = $(this).find('facility1').text();
+                    let facility2 = $(this).find('facility2').text();
+                    let facility3 = $(this).find('facility3').text();
+                    let facility4 = $(this).find('facility4').text();
+                    let facility5 = $(this).find('facility5').text();
+
+                    $('.pricedata').append(
+                        `
+                 <div class="box">
+                <h3 class="title">${tital}</h3>
+                <h3 class="amount">${price}</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i>${facility1}</li>
+                    <li> <i class="fas fa-check"></i>${facility2}</li>
+                    <li> <i class="fas fa-check"></i>${facility3}</li>
+                    <li> <i class="fas fa-check"></i>${facility4}</li>
+                    <li> <i class="fas fa-check"></i>${facility5}</li>
+                </ul>
+                <a href="#" class="btn">check out</a>
+            </div>
+                        `
+                    )
+
+                }
+            )
+        }
+    </script>
+
+</body>
+
+</html>

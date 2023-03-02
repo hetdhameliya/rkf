@@ -1,0 +1,45 @@
+{
+
+    "servicesdata":[
+     {
+        "class" : "fas fa-map-marker-alt",
+        "hading": "venue selection",
+        "details" : "you can choose the right and best place for your event"
+       
+     },
+     {
+       
+        "class" : "fas fa-envelope",
+        "hading": "invitation card",
+        "details" : "You can teel how many people you want to invite bu using a sutitable invitation card"
+     },
+     {
+       
+        "class" : "fas fa-music",
+        "hading": "entertainment",
+        "details" : "You can also book various activities for entertainment at the event"
+     },
+     {
+       
+        "class" : "fas fa-utensils",
+        "hading": "food and drinks",
+        "details" : "A list of healthy and delicious food and drinks to be included in the event can also be booked here"
+     },
+     {
+       
+        "class" : "fas fa-photo-video",
+        "hading": "photos and videos",
+        "details" : "if you want to see photos and videos of your event,you can book here with a suitable price"
+     },
+     {
+       
+        "class" : "fas fa-birthday-cake",
+        "hading": "custom food",
+        "details" : "you cabn also add special food and surprises to suit your event"
+     }
+   
+   
+     
+    ]
+
+}

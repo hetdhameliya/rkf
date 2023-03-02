@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<carts>
+    <cart>
+        <tital>for birthdays</tital>
+        <price>₹ 80,000</price>
+        <facility1>full services</facility1>
+        <facility2>decorations</facility2>
+        <facility3>music and photos</facility3>
+        <facility4>food and drinks</facility4>
+        <facility5>invitation card</facility5>
+
+    </cart>
+
+
+    <cart >
+        <tital>for weddings</tital>
+        <price>₹ 2,50,000</price>
+        <facility1>full services</facility1>
+        <facility2>decorations</facility2>
+        <facility3>music and photos</facility3>
+        <facility4>food and drinks</facility4>
+        <facility5>invitation card</facility5>
+
+    </cart>
+
+    <cart >
+        <tital>for engagement</tital>
+        <price>₹ 1,45,000</price>
+        <facility1>full services</facility1>
+        <facility2>decorations</facility2>
+        <facility3>music and photos</facility3>
+        <facility4>food and drinks</facility4>
+        <facility5>invitation card</facility5>
+
+    </cart>
+
+
+    <cart >
+        <tital>party</tital>
+        <price>₹ 1,00,000</price>
+        <facility1>full services</facility1>
+        <facility2>decorations</facility2>
+        <facility3>music and photos</facility3>
+        <facility4>food and drinks</facility4>
+        <facility5>invitation card</facility5>
+
+    </cart>
+
+</carts>
